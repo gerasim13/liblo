@@ -1,0 +1,141 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXGroup section */
+		006B15FF168FA47B00089AC3 = {
+			isa = PBXGroup;
+			children = (
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		006B1606168FA47B00089AC3 /* liblo */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 006B161A168FA47B00089AC3 /* Build configuration list for PBXLegacyTarget "liblo" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/pavellitvinenko/Documents/My Projects/Loopseque Audio Engine/Libraries/liblo";
+			dependencies = (
+			);
+			name = liblo;
+			passBuildSettingsInEnvironment = 1;
+			productName = liblo;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		006B1601168FA47B00089AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 006B1604168FA47B00089AC3 /* Build configuration list for PBXProject "liblo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 006B15FF168FA47B00089AC3;
+			productRefGroup = 006B15FF168FA47B00089AC3;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				006B1606168FA47B00089AC3 /* liblo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		006B1602168FA47B00089AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					x86_64,
+					armv7,
+					armv7s,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		006B1603168FA47B00089AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					x86_64,
+					armv7,
+					armv7s,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		006B161B168FA47B00089AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = liblo;
+			};
+			name = Debug;
+		};
+		006B161C168FA47B00089AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = liblo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		006B1604168FA47B00089AC3 /* Build configuration list for PBXProject "liblo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006B1602168FA47B00089AC3 /* Debug */,
+				006B1603168FA47B00089AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		006B161A168FA47B00089AC3 /* Build configuration list for PBXLegacyTarget "liblo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006B161B168FA47B00089AC3 /* Debug */,
+				006B161C168FA47B00089AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 006B1601168FA47B00089AC3 /* Project object */;
+}
